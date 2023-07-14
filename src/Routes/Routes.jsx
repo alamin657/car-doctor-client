@@ -32,7 +32,7 @@ const router = createBrowserRouter([
             {
                 path: '/checkout/:id',
                 element: <PrivateRoute><Checkout></Checkout></PrivateRoute>,
-                loader: ({ params }) => fetch(`https://car-doctor-server-alamin657.vercel.app/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://car-doctor-server-gilt.vercel.app/services/${params.id}`)
             },
             {
                 path: '/bookings',

@@ -34,7 +34,7 @@ const AuthProvider = ({ children }) => {
                 const loggedUser = {
                     user: currentUser.email
                 }
-                fetch('https://car-doctor-server-alamin657.vercel.app/jwt', {
+                fetch('https://car-doctor-server-gilt.vercel.app/jwt', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
